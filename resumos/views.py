@@ -1,4 +1,4 @@
-from django.db.models import Count, Sum
+from django.db.models import Sum
 from rest_framework import views, response
 from rest_framework.permissions import IsAuthenticated
 from receitas.models import Receita
