@@ -1,9 +1,11 @@
 from receitas.models import Receita
 from rest_framework import generics
+from rest_framework.permissions import IsAuthenticated
 from receitas.serializers import ReceitaModelSerializer
 
 
 class ReceitaCreateListView(generics.ListCreateAPIView):
+    permission_classes = (IsAuthenticated,)
     serializer_class = ReceitaModelSerializer
 
     def get_queryset(self):
@@ -22,5 +24,6 @@ class ReceitaCreateListView(generics.ListCreateAPIView):
 
 
 class ReceitaRetrieveUpdateDestroyView(generics.RetrieveUpdateDestroyAPIView):
+    permission_classes = (IsAuthenticated,)
     queryset = Receita.objects.all()
     serializer_class = ReceitaModelSerializer

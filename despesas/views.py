@@ -1,9 +1,11 @@
 from despesas.models import Despesa
 from rest_framework import generics
+from rest_framework.permissions import IsAuthenticated
 from despesas.serializers import DespesaModelSerializer
 
 
 class DespesaCreateListView(generics.ListCreateAPIView):
+    permission_classes = (IsAuthenticated,)
     serializer_class = DespesaModelSerializer
 
     def get_queryset(self):
@@ -22,5 +24,6 @@ class DespesaCreateListView(generics.ListCreateAPIView):
 
 
 class DespesaRetrieveUpdateDestroyView(generics.RetrieveUpdateDestroyAPIView):
+    permission_classes = (IsAuthenticated,)
     queryset = Despesa.objects.all()
     serializer_class = DespesaModelSerializer

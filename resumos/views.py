@@ -1,10 +1,12 @@
 from django.db.models import Count, Sum
 from rest_framework import views, response
+from rest_framework.permissions import IsAuthenticated
 from receitas.models import Receita
 from despesas.models import Despesa, Categoria
 
 
 class ResumoView(views.APIView):
+    permission_classes = (IsAuthenticated,)
 
     def get(self, request, year, month):
 
