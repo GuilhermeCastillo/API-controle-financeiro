@@ -125,8 +125,8 @@ Este projeto esta sob a licença [MIT](./LICENSE). Consulte o arquivo LICENSE.md
 
 ## Autor
 
-`<b>`Guilherme Castilho`</b>`🚀`<br />`
- `<img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/70145464?v=4" width="100px;" alt=""/><br />`
+Guilherme Castilho
+
 Projeto desenvolvido por Guilherme Castilho. Entre em contato!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Guilherme-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/guilherme-castilho/)](https://www.linkedin.com/in/guilherme-castilho/)
