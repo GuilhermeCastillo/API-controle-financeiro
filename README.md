@@ -125,11 +125,11 @@ Este projeto esta sob a licença [MIT](./LICENSE). Consulte o arquivo LICENSE.md
 
 ## Autor
 
-`<b>`Guilherme Castilho feitosa `</b>`🚀`<br />`
+`<b>`Guilherme Castilho`</b>`🚀`<br />`
  `<img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/70145464?v=4" width="100px;" alt=""/><br />`
-Projeto desenvolvido por Thomaz Machado. Entre em contato!
+Projeto desenvolvido por Guilherme Castilho. Entre em contato!
 
-[![Linkedin Badge](https://img.shields.io/badge/-Thomaz-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/thomazcm/)](https://www.linkedin.com/in/thomazcm/)
-[![Gmail Badge](https://img.shields.io/badge/-thomazcm@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:thomazcm@gmail.com)](mailto:thomazcm@gmail.com)
+[![Linkedin Badge](https://img.shields.io/badge/-Guilherme-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/guilherme-castilho/)](https://www.linkedin.com/in/guilherme-castilho/)
+[![Gmail Badge](https://img.shields.io/badge/-guilherme.castilhodeveloper@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:guilherme.castilhodeveloper@gmail.com)](mailto:guilherme.castilhodeveloper@gmail.com)
 
 <p align="right">(<a href="#readme-top">voltar para o início</a>)</p>
