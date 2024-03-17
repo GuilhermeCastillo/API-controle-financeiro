@@ -10,8 +10,6 @@ class ReceitaCreateListView(generics.ListCreateAPIView):
         queryset = Receita.objects.all()
         descricao = self.request.query_params.get("descricao")
 
-        print(descricao)
-
         if descricao is not None:
             queryset = queryset.filter(descricao=descricao)
 
